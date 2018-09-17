@@ -6,6 +6,8 @@ name = "pypi"
 [packages]
 pandas = "*"
 matplotlib = "*"
+google-cloud-bigquery = {version = "*", extras = ["pandas"]}
+pandas-gbq = "*"
 
 [dev-packages]
 
